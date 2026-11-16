@@ -10,7 +10,7 @@ else()
     # Default: debian-trixie-slim
     set(ZIP_URL "https://github.com")
     set(ZIP_NAME "lib_raisondetre_debian_trixie-slim-1.0.0.zip")
-    set(ZIP_SHA512 "a82359cd8ce0345b7a4727acddd674c706a5a5bf8cf3244737977173731fb28cbd2094fd6c43fa6cd343995e7d8afcf1c8d41f1b890012994621b0d44a5da4ea")
+    set(ZIP_SHA512 "0171d8226f254e36d273825a477136a2d2e33018de9d24469aac4deead0ddffea43618eb4e47554d2f85fa73c67bfc5fc38f2f2d6ab2cd44b68d5debf73e4ac9")
 endif()
 
 vcpkg_download_distfile(ARCHIVE
