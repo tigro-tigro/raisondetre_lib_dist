@@ -22,7 +22,7 @@ Information needed:
     {
       "kind": "git",
       "repository": "https://github.com/tigro-tigro/raisondetre_lib_dist",
-      "baseline": "5b23921d69a904b57dd347cbdb3f740f406ffc34",
+      "baseline": "bf8388e0d880b658c1c00e190529fc7414a5ccb2",
       "packages": [
         "raisondetre"
       ]
