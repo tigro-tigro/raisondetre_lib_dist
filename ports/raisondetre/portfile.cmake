@@ -25,9 +25,10 @@ vcpkg_extract_source_archive(
     ARCHIVE "${ARCHIVE}"
 )
 
-file(INSTALL "${SOURCE_PATH}/dist/include/raisondetre.h" DESTINATION "${CURRENT_PACKAGES_DIR}/include")
-file(INSTALL "${SOURCE_PATH}/dist/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/lib")
-file(INSTALL "${SOURCE_PATH}/dist/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/debug/lib")
+
+file(INSTALL "${SOURCE_PATH}/include/raisondetre.h" DESTINATION "${CURRENT_PACKAGES_DIR}/include")
+file(INSTALL "${SOURCE_PATH}/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/lib")
+file(INSTALL "${SOURCE_PATH}/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/debug/lib")
 
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/raisondetreConfig.cmake" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
