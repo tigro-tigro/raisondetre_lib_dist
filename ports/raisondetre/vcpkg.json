@@ -6,11 +6,11 @@
     "debian-trixie-slim"
   ],
   "features": {
-    "debian-trixie-slim": {
-      "description": "Pre-compiled binary for Debian 13 (Trixie Slim)"
-    },
     "debian-bookworm": {
       "description": "Pre-compiled binary for Debian 12 (Bookworm)"
+    },
+    "debian-trixie-slim": {
+      "description": "Pre-compiled binary for Debian 13 (Trixie Slim)"
     },
     "ubuntu-2404": {
       "description": "Pre-compiled binary for Ubuntu 24.04 LTS"
