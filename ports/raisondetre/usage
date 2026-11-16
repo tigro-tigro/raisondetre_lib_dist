@@ -1,0 +1,4 @@
+raisondetre provides CMake targets:
+
+    find_package(raisondetre CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE raisondetre::raisondetre)
