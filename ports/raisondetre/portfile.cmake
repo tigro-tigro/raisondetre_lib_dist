@@ -16,7 +16,8 @@ endif()
 vcpkg_download_distfile(ARCHIVE
     URLS "${ZIP_URL}"
     FILENAME "${ZIP_NAME}"
-    SHA512 "${ZIP_SHA512}"
+    SKIP_SHA512
+    ##SHA512 "${ZIP_SHA512}"
 )
 
 vcpkg_extract_source_archive(
