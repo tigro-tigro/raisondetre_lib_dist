@@ -24,6 +24,9 @@
     },
     "ubuntu-2404": {
       "description": "Pre-compiled binary for Ubuntu 24.04 LTS"
+    },
+    "arm64-osx": {
+      "description": "Pre-compiled binary for MacOS ARM64 (Apple Silicon)"
     }
   }
 }
