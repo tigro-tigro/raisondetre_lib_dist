@@ -2,7 +2,7 @@
   "name": "raisondetre",
   "version": "1.0.0",
   "description": "A C++ library for API server used to integrate with popular Cloud native databases.",
-  "supports": "linux",
+  "supports": "linux | osx",
   "dependencies": [
     {
       "name": "boost-iostreams",
