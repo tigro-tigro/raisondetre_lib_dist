@@ -29,7 +29,6 @@ vcpkg_extract_source_archive(
     ARCHIVE "${ARCHIVE}"
 )
 
-
 file(INSTALL "${SOURCE_PATH}/include/raisondetre.h" DESTINATION "${CURRENT_PACKAGES_DIR}/include/raisondetre")
 file(INSTALL "${SOURCE_PATH}/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/lib")
 file(INSTALL "${SOURCE_PATH}/lib/libraisondetre.a" DESTINATION "${CURRENT_PACKAGES_DIR}/debug/lib")
